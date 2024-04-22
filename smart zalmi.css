@@ -223,3 +223,97 @@ li{
     color: green;
     margin-right: 5px;
 }
+@media only screen and (max-width:1100px){
+    .gallery{
+        width: 100%;
+        height: 200px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .text{
+        font-size: 19px;
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+        font-weight: 600;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .borders1{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .black-color{
+        width: 90%;
+        height: auto;
+        background: rgb(215, 213, 213);
+    }
+    .image{
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+    .font{
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .black-font{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        margin-top: 30px;
+        height: 200px;
+        background-color: rgb(40, 39, 39);
+        display: flex;
+    }
+    .border222{
+        border: 2px solid rgb(40, 39, 39);
+        width: fit-content;
+        height: fit-content;
+    }
+    .title{
+        margin-top: 15px;
+        margin-left: 15px;
+        color: white;
+        font-size: 14px;
+    }
+    .contact{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .link222{
+        text-decoration: none;
+    }
+    .link222:hover{
+        text-decoration: underline;
+    }
+    li{
+        color: white;
+        font-size: 14px;
+        margin: 5px;
+        list-style: none;
+    }
+    .border223{
+        border: 2px solid rgb(40, 39, 39);
+        width: fit-content;
+        height: fit-content;
+        margin-left: 60px;
+    }
+    .whatsapp{
+        color: green;
+        margin-right: 5px;
+    }
+    .messenger{
+        color: rgb(122, 122, 251);
+        margin-right: 5px;
+    }
+    .phone{
+        color: green;
+        margin-right: 5px;
+    }
+}

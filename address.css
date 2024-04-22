@@ -225,3 +225,107 @@ li{
     color: green;
     margin-right: 5px;
 }
+@media only screen and (max-width:1100px){
+    .title1{
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px grey;
+        color: red;
+    }
+    strong{
+        color: blue;
+        font-size: 17px;
+        font-weight: 550;
+    }
+    .paragraph{
+        font-size: 17px;
+        color: black;
+        font-weight: 600;
+    }
+    .map{
+        font-size: 100px;
+        color: red;
+        text-shadow: 4px 6px green;
+        transition: 0.4s;
+    }
+    .map:hover{
+        color: green;
+        text-shadow: 4px 6px red;
+        cursor: pointer;
+    }
+    .border{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .images{
+        width: 100%;
+        height: 200px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 30px;
+        height: 200px;
+        background-color: rgb(40, 39, 39);
+        display: flex;
+    }
+    .border222{
+        border: 2px solid rgb(40, 39, 39);
+        width: fit-content;
+        height: fit-content;
+    }
+    .title{
+        margin-top: 15px;
+        margin-left: 15px;
+        color: white;
+        font-size: 14px;
+    }
+    .contact{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .link222{
+        text-decoration: none;
+    }
+    .link222:hover{
+        text-decoration: underline;
+    }
+    li{
+        color: white;
+        font-size: 14px;
+        margin: 5px;
+        list-style: none;
+    }
+    .border223{
+        border: 2px solid rgb(40, 39, 39);
+        width: fit-content;
+        height: fit-content;
+        margin-left: 60px;
+    }
+    .whatsapp{
+        color: green;
+        margin-right: 5px;
+    }
+    .messenger{
+        color: rgb(122, 122, 251);
+        margin-right: 5px;
+    }
+    .phone{
+        color: green;
+        margin-right: 5px;
+    }
+}

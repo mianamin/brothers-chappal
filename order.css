@@ -239,3 +239,146 @@ li{
     color: green;
     margin-right: 5px;
 }
+@media only screen and (max-width: 1100px){
+    body{
+        background-color: white;
+    }
+    .border{
+        width: 100%;
+        height: 80%;
+        border-radius: 20px;
+        background-color: transparent;
+        margin-left: 0;
+        margin-top: 20px;
+        border: 2px solid rgb(86, 85, 85);
+        box-shadow: 4px 6px red;
+        backdrop-filter: blur(30px);
+        overflow: auto;
+    }
+    .title1{
+        font-size: 26px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(21, 190, 247);
+        text-shadow: 2px 2px red;
+    }
+    .name1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .name{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    .input{
+        text-align: center;
+        width: 160px;
+        height: 17px;
+        background-color: transparent;
+        font-size: 15px;
+        border-radius: 6px;
+    }
+    .radio{
+        display: flex;
+    }
+    .name12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .submit{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+    .submit1{
+        font-size: 23px;
+        color: black;
+        font-weight: bold;
+        margin-right: 30px;
+        transition: 1s;
+    }
+    .submit1:hover{
+        border: 2px solid black;
+        background-color: transparent;
+        color: red;
+        font-size: 30px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .clear{
+        font-size: 23px;
+        color: black;
+        font-weight: bold;
+        margin-right: 30px;
+        transition: 1s;
+    }
+    .clear:hover{
+        border: 2px solid black;
+        background-color: transparent;
+        color: red;
+        font-size: 30px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+
+
+
+
+    footer{
+        margin-top: 30px;
+        height: 200px;
+        background-color: rgb(40, 39, 39);
+        display: flex;
+    }
+    .border222{
+        border: 2px solid rgb(40, 39, 39);
+        width: fit-content;
+        height: fit-content;
+    }
+    .title{
+        margin-top: 15px;
+        margin-left: 15px;
+        color: white;
+        font-size: 14px;
+    }
+    .contact{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .link222{
+        text-decoration: none;
+    }
+    .link222:hover{
+        text-decoration: underline;
+    }
+    li{
+        color: white;
+        font-size: 14px;
+        margin: 5px;
+        list-style: none;
+    }
+    .border223{
+        border: 2px solid rgb(40, 39, 39);
+        width: fit-content;
+        height: fit-content;
+        margin-left: 60px;
+    }
+    .whatsapp{
+        color: green;
+        margin-right: 5px;
+    }
+    .messenger{
+        color: rgb(122, 122, 251);
+        margin-right: 5px;
+    }
+    .phone{
+        color: green;
+        margin-right: 5px;
+    }
+}
