@@ -1,0 +1,326 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+header{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.menu{
+    width: fit-content;
+    margin-left: 30%;
+    display: flex;
+}
+.menu-button{
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.link:hover{
+    color: yellow;
+    box-shadow: 0 2px yellow;
+    transform: rotateY(360deg);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.link{
+    margin: 10px;
+    transition: 1s;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+.search-input{
+    width: 180px;
+    height: 25px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: 2px solid rgb(213, 211, 211);
+    text-align: center;
+}
+.icon{
+    font-size: 18px;
+    color: white;
+    transition: 0.7s;
+}
+.icon:hover{
+    transform: rotateY(360deg);
+    cursor: pointer;
+    color: white;
+}
+.ic{
+    border: 2px solid rgb(213, 211, 211);
+    height: 27.5px;
+    width: 28px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    border-left: transparent;
+    background-color: orange;
+}
+.ic:hover{
+    background-color: transparent;
+}
+.cart1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cart{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+
+}
+.cart:hover{
+    transform: rotate(360deg);
+}
+.cart2{
+    font-size: 25px;
+    color: red;
+    margin-right: 3px;
+}
+
+
+
+
+
+
+.image-and-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.image{
+    width: 40%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 1s;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.text{
+    margin-right: 80px;
+}
+strong{
+    font-size: 50px;
+    color: red;
+    text-shadow: 2px 3px grey;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+}
+.font{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 50px;
+    margin-top: 100px;
+}
+.zalmi{
+    width: 350px;
+    height: 400px;
+    background-color: transparent;
+    transition: 1s;
+
+}
+.zalmi:hover{
+    width: 400px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.zalmi:hover .zalmi-image{
+    width: 380px;
+    height: auto;
+}
+.zalmi:hover .zalmi-text{
+    font-size: 35px;
+}
+.smart-zalmi:hover .zalmi-image{
+    width: 380px;
+    height: auto;
+}
+.smart-zalmi:hover .zalmi-text{
+    font-size: 35px;
+}
+.zardari:hover .zalmi-image{
+    width: 380px;
+    height: auto;
+}
+.zardari:hover .zalmi-text{
+    font-size: 35px;
+}
+.smart-zalmi{
+    width: 350px;
+    height: 500px;
+    background-color: transparent;
+    transition: 1s;
+}
+.smart-zalmi:hover{
+    width: 500px;
+    height: 600px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.zardari{
+    width: 350px;
+    height: 400px;
+    background-color: transparent;
+    transition: 1s;
+}
+.zardari:hover{
+    width: 400px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.zalmi-image{
+    width: 300px;
+    height: auto;
+    transition: 1s;
+}
+.zalmi-text{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 1s;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.none{
+    text-decoration: none;
+    font-size: 22px;
+    color: red;
+}
+a .zalmi-text{
+    color: black;
+}
+a .smart-zalmi{
+    color: black;
+}
+a .zardari{
+    color: black;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    gap: 50px;
+    margin-top: 100px;
+}
+.smart-zalmi21{
+    width: 350px;
+    height: 700px;
+    flex-direction: column;
+    background-color: transparent;
+    transition: 1s;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+.smart-zalmi21:hover .zalmi-image{
+    width: 380px;
+    height: auto;
+}
+.smart-zalmi21:hover .zalmi-text{
+    font-size: 35px;
+}
+.smart-zalmi21:hover{
+    width: 500px;
+    height: 600px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+footer{
+    margin-top: 150px;
+    height: 400px;
+    background-color: rgb(40, 39, 39);
+    display: flex;
+}
+.border222{
+    border: 2px solid rgb(40, 39, 39);
+    width: fit-content;
+    height: fit-content;
+}
+.title{
+    margin-top: 50px;
+    margin-left: 130px;
+    color: white;
+    font-size: 18px;
+}
+.contact{
+    margin-left: 132px;
+}
+.link222{
+    text-decoration: none;
+}
+.link222:hover{
+    text-decoration: underline;
+}
+li{
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    list-style: none;
+}
+.border223{
+    border: 2px solid rgb(40, 39, 39);
+    width: fit-content;
+    height: fit-content;
+    margin-left: 60px;
+}
+.whatsapp{
+    color: green;
+    margin-right: 5px;
+}
+.messenger{
+    color: rgb(122, 122, 251);
+    margin-right: 5px;
+}
+.phone{
+    color: green;
+    margin-right: 5px;
+}
