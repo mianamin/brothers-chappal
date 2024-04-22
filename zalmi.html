@@ -5,7 +5,327 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zalmi Chappal - Brothers Chappal Makers</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="zalmi.css">
+    <style>
+        .logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+header{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.menu{
+    width: fit-content;
+    margin-left: 30%;
+    display: flex;
+}
+.menu-button{
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.link:hover{
+    color: yellow;
+    box-shadow: 0 2px yellow;
+    transform: rotateY(360deg);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.link{
+    margin: 10px;
+    transition: 1s;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+.search-input{
+    width: 180px;
+    height: 25px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: 2px solid rgb(213, 211, 211);
+    text-align: center;
+}
+.icon{
+    font-size: 18px;
+    color: white;
+    transition: 0.7s;
+}
+.icon:hover{
+    transform: rotateY(360deg);
+    cursor: pointer;
+    color: white;
+}
+.ic{
+    border: 2px solid rgb(213, 211, 211);
+    height: 27.5px;
+    width: 28px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    border-left: transparent;
+    background-color: orange;
+}
+.ic:hover{
+    background-color: transparent;
+}
+.cart1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cart{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+
+}
+.cart:hover{
+    transform: rotate(360deg);
+}
+.cart2{
+    font-size: 25px;
+    color: red;
+    margin-right: 3px;
+}
+
+
+
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+.item{
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    transition: 1s;
+}
+.item:nth-child(1){
+    background-image: url("https://i0.wp.com/almarikit.com/wp-content/uploads/2022/03/double-sole-black-zalmi-peshawar-chappal-pure-leather-handmade-m-008-6.jpg?fit=1280%2C853&ssl=1");
+}
+.item:nth-child(2){
+    background-image: url("https://www.chapalmax.com/cdn/shop/files/u.jpg?v=1687520792&width=533");
+}
+.item:nth-child(3){
+    background-image: url("https://www.saqafatstores.com/cdn/shop/files/1_2d77cb3f-6eae-4ee0-a083-39aa1d2cbe26.jpg?v=1700657009&width=1946");
+}
+.item:nth-child(4){
+    background-image: url("https://leatherhub.pk/cdn/shop/products/03-1.jpg?v=1683405066&width=1445");
+}
+.item:nth-child(5){
+    background-image: url("https://pakhtunchappal.com/wp-content/uploads/2023/03/01-46.jpg");
+}
+.item:hover{
+    flex: 5;
+}
+.text{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.borders1{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.black-color{
+    width: 350px;
+    height: 430px;
+    background: rgb(215, 213, 213);
+}
+.image{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
+.font{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.black-font{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin-top: 150px;
+    height: 400px;
+    background-color: rgb(40, 39, 39);
+    display: flex;
+}
+.border222{
+    border: 2px solid rgb(40, 39, 39);
+    width: fit-content;
+    height: fit-content;
+}
+.title{
+    margin-top: 50px;
+    margin-left: 130px;
+    color: white;
+    font-size: 18px;
+}
+.contact{
+    margin-left: 132px;
+}
+.link222{
+    text-decoration: none;
+}
+.link222:hover{
+    text-decoration: underline;
+}
+li{
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    list-style: none;
+}
+.border223{
+    border: 2px solid rgb(40, 39, 39);
+    width: fit-content;
+    height: fit-content;
+    margin-left: 60px;
+}
+.whatsapp{
+    color: green;
+    margin-right: 5px;
+}
+.messenger{
+    color: rgb(122, 122, 251);
+    margin-right: 5px;
+}
+.phone{
+    color: green;
+    margin-right: 5px;
+}
+@media only screen and (max-width:1100px){
+    .gallery{
+        width: 100%;
+        height: 200px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .text{
+        font-size: 19px;
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+        font-weight: 600;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .borders1{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .black-color{
+        width: 90%;
+        height: auto;
+        background: rgb(215, 213, 213);
+    }
+    .image{
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+    .font{
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .black-font{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        margin-top: 30px;
+        height: 300px;
+        background-color: rgb(40, 39, 39);
+        display: flex;
+    }
+    .border222{
+        border: 2px solid rgb(40, 39, 39);
+        width: fit-content;
+        height: fit-content;
+    }
+    .title{
+        margin-top: 15px;
+        margin-left: 15px;
+        color: white;
+        font-size: 14px;
+    }
+    .contact{
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .link222{
+        text-decoration: none;
+    }
+    .link222:hover{
+        text-decoration: underline;
+    }
+    li{
+        color: white;
+        font-size: 14px;
+        margin: 5px;
+        list-style: none;
+    }
+    .border223{
+        border: 2px solid rgb(40, 39, 39);
+        width: fit-content;
+        height: fit-content;
+        margin-left: 60px;
+    }
+    .whatsapp{
+        color: green;
+        margin-right: 5px;
+    }
+    .messenger{
+        color: rgb(122, 122, 251);
+        margin-right: 5px;
+    }
+    .phone{
+        color: green;
+        margin-right: 5px;
+    }
+}
+    </style>
 </head>
 <body>
     <header>
